@@ -12,7 +12,7 @@ from sensor_msgs.msg import PointCloud2
 import ros2_numpy
 
 from livoxdetection.models.ld_base_v1 import LD_base
-from utils.vis_node import VisulizeBBoxNode
+from perception_ws.ros_node.utils.vis_bbox_node import VisulizeBBoxNode
 from utils.transform_utils import mask_points_out_of_range
 from utils.device_utils import gpu2cpu, cpu2gpu
 
